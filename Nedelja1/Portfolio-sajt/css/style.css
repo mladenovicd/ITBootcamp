@@ -1,0 +1,134 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+header{
+
+    background-color: #e8e8e8;
+    height: 10vh;
+    /*position: fixed; kada ovo ispisem navigacija promeni se koncept header-a*/
+    
+}
+
+main{
+    background-color: red;
+    height: 120vh;
+}
+
+footer{
+    background-color: #e8e8e8;
+    height: 15vh;
+}
+
+
+a{
+    text-decoration: none;
+    color:grey
+}
+
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+a:active{
+    color:red;
+    text-decoration: line-through;
+}
+
+#logo{
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: grey;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+#navigacija{
+    list-style-type: none;
+    float: right;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#navigacija li{
+    display: inline-block;
+    margin-right: 35px; 
+}
+
+h2{
+    background-color: #5ac1f0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    color: whitesmoke;
+}
+
+
+
+#sekcija1{
+    height: 31vh;
+    background-color: #e8e8e8;
+    
+}
+
+
+.slika1{
+    width: 30vh;
+    float: left;
+    margin-left: 15px;
+    padding-top: 2px;
+
+
+}
+
+.tekst1{
+    width: 100vh;
+    float: left;
+    margin-left: 20px;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+
+
+#sekcija2{
+    height: 90vh;
+    background-color: #e8e8e8;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr 1fr;
+    grid-template-rows: 0fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas: ". . . ." "project-1 . project-2 project-3" "project-4 . project-5 project-6";
+    margin-left: 15px;
+  }
+  
+  .project-1 { grid-area: project-1;background-color: #e8e8e8; }
+  
+  .project-2 { grid-area: project-2;background-color: #e8e8e8; }
+  
+  .project-3 { grid-area: project-3;background-color: #e8e8e8; }
+  
+  .project-4 { grid-area: project-4;background-color: #e8e8e8; }
+  
+  .project-5 { grid-area: project-5;background-color: #e8e8e8; }
+  
+  .project-6 { grid-area: project-6;background-color: #e8e8e8; }
+  
+#kontakti{
+    list-style-type: none;
+    margin-top: 25px;
+    padding-left: 90vh;
+}
+
+#kontakti li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
