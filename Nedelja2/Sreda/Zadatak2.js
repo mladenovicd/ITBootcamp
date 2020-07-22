@@ -13,4 +13,4 @@ else if(kolNovca>=cena){
     console.log("Trenutno stanje: " + trenutnoStanje + ".")
 }
 
-//Trenutno stanje ?? da li samo kao string ili nesto se oduzima?
+
