@@ -1,21 +1,25 @@
 //while petlja
 {
-    let broj = 1000;
+    let brojac = 0;
     let i = 1;
-    while(i<=broj){
+    while(true){
         if(i%5==0){
             console.log(i)
+            brojac++;
         }
-        i++
+        if(brojac==1000){
+            break;
+        }
+        i++;
     }
 }
 
 //for petlja
 {
-    let broj = 1000;
-    for(let i=1;i<=broj;i++){
+    for(let brojac=0, i=1;brojac==1000;i++){
         if(i%5==0){
             console.log(i);
+            brojac++;
         }
     }
 }
