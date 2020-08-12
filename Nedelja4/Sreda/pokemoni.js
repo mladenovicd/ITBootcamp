@@ -45,3 +45,5 @@ console.log('-----------------------------')
 
 //3 zad Сортирати покемоне по брзини, растуће.
 
+let pokemoniBrzina = nizPokemona.sort((a,b) => a.karakteristike.brzina - b.karakteristike.brzina)
+console.log(pokemoniBrzina)
