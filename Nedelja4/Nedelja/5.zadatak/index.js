@@ -57,7 +57,3 @@ for(let i = 0;i<nizPokemon.length;i++){
     div.append(p,img)
 }  
 
-buttonPrikaz.addEventListener('click',(e) =>{
-    console.log(e.target)
-
-}) 
