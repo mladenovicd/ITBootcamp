@@ -16,7 +16,7 @@
 
 //for petlja
 {
-    for(let brojac=0, i=1;brojac==1000;i++){
+    for(let brojac=0, i=1;brojac!==1000;i++){
         if(i%5==0){
             console.log(i);
             brojac++;
